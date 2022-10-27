@@ -8,10 +8,15 @@
     <link rel="apple-touch-icon" href="/public/apple-touch-icon.png"><!-- 180×180 -->
     <link rel="manifest" href="/public/manifest.webmanifest">
 
-    <script async src="./src/js/index.ts"></script>
+    <script async type="module" src="./src/js/index.ts"></script>
     <link rel="stylesheet" href="./dist/index.css" />
   </head>
   <body>
-    <h1>My app!</h1>
+    <div style="position: relative;">
+      <label for="input" hidden>Your text</label>
+      <textarea id="input" placeholder="Write some text here!"></textarea>
+    </div>
+
+    <button>Fullscreen!</button>
   </body>
 </html>
