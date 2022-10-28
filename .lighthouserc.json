@@ -1,4 +1,9 @@
 {
+  "extends": "lighthouse:default",
+  "settings": {
+    "throttlingMethod": "devtools",
+    "onlyCategories": ["performance"]
+  },
   "ci": {
     "collect": {
       "staticDistDir": "./dist/"
