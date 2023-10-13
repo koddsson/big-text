@@ -4,5 +4,5 @@ import esbuild from 'rollup-plugin-esbuild'
 export default {
   input: 'index.html',
   output: {dir: 'dist'},
-  plugins: [esbuild(), html({input: 'index.html'})]
+  plugins: [esbuild({target: 'esnext'}), html({input: 'index.html'})],
 }
