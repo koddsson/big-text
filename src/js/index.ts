@@ -17,4 +17,3 @@ fullScreenButton?.addEventListener('click', async () => {
 })
 
 export {}
-
