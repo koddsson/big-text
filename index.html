@@ -10,7 +10,6 @@
 
     <meta name="viewport" content="width=device-width">
 
-    <script async type="module" src="./src/js/index.ts"></script>
     <link rel="stylesheet" href="./dist/index.css" />
   </head>
   <body>
@@ -19,6 +18,7 @@
       <textarea id="input" placeholder="Write some text here!"></textarea>
     </div>
 
-    <button>Fullscreen!</button>
+    <button invoketarget="input" invokeaction="toggleFullScreen">Fullscreen!</button>
+    <script async type="module" src="./src/js/index.ts"></script>
   </body>
 </html>
